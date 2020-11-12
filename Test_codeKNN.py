@@ -957,7 +957,7 @@ def user():
     return user_input
 # y_pred will give the predicted value
     
-doc_dataset = pd.read_csv('D:\Project\doctors_dataset.csv', names = ['Name', 'Description'])
+doc_dataset = pd.read_csv('doctors_dataset.csv', names = ['Name', 'Description'])
 
 
 diseases = dimensionality_reduction.index
