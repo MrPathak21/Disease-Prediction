@@ -5,8 +5,8 @@ import pandas as pd
 import streamlit as st
 
 
-training_dataset = pd.read_csv('D:\Project\Training.csv')
-test_dataset = pd.read_csv('D:\Project\Testing.csv')
+training_dataset = pd.read_csv('Training.csv')
+test_dataset = pd.read_csv('Testing.csv')
 
 
 X = training_dataset.iloc[:, 0:132].values
